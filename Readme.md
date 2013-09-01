@@ -1,6 +1,6 @@
 UDP PACKET GENERATOR 
 ------
-UDP Packet Generator is an old file made a few years ago, to send packets to specific destinationIP addresses with random source addresses. 
+UDP Packet Generator is an old file made a few years ago, to send packets to specific destinationIP addresse with random source addresses. 
 
 Note : It only works on Unix based systems.  
 
