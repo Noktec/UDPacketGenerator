@@ -10,18 +10,19 @@ Used against some cisco IP phones, it is able to perform a DOS attack.
 How to
 -----
 
-- [x] Do not forget to change the IP address on line  28 and 31 : 
+- Do not forget to change the IP address on line  28 and 31 : 
 
 ```
 udp("xxx.xxx.xxx.xxx"); //replace with IP
 ```
 
-- [x] To use, simply follow these steps : 
+-  To compile : 
 
 ```
 $ gcc UDPacketGenerator.c -o udpPacketGenerator
 
 ```
+- To run :
 
 ```
 $ ./udpPacketGenerator
