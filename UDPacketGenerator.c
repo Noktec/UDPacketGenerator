@@ -1,7 +1,9 @@
 	#include <stdio.h>
 	#include <stdlib.h>
 	#include <string.h>
+	#include <time.h>
 
+	#include <arpa/inet.h>
 	#include <netinet/ip.h> 
 	#include <sys/socket.h> 
 	#include <netinet/in.h> 
@@ -13,6 +15,9 @@
 	#define PADDING_SIZE 1
 	#define N_LOOP 10
 	#define U_WAITING 100000 
+	
+	
+
 
 	void udp(char *);
 	unsigned short int in_chksum (unsigned short int *, int);
