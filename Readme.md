@@ -36,6 +36,21 @@ This line defines the number of packets send
 Change 10 by 1000 if you need to send a 1000 packets
 
 
+Errors 
+------
+
+If you face the following error: 
+```
+DPacketGenerator.c:48:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+  unsigned long ip_src = hasard(4294967295/2,4294967295);
+```
+Simply replace line 53 with this one :
+```
+unsigned long ip_src = hasard(4294967295LL/2,4294967295LL);
+```
+
+
+
 Sources 
 ------
 The function ***in_chksum***  was taken from the papasmurf source code : http://packetstormsecurity.com/files/15266/papasmurf.c.html
