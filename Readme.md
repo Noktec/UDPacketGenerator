@@ -29,7 +29,7 @@ $ ./udpPacketGenerator
 
 ```
 
-This line defines the number of packets send
+This line defines the number of packets to send
 ``` 
  #define N_LOOP 10
 ```
